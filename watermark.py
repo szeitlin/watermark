@@ -104,7 +104,7 @@ class WaterMark(Magics):
             if args.custom_time:
                 self.out += '%s ' %strfime(args.custom_time)
             if args.date:
-                self.out += '%s ' %strftime('%d/%m/%Y')
+                self.out += '%s ' %strftime('%m/%d/%Y')
             elif args.datename:
                 self.out += '%s ' %strftime('%a %b %d %Y')
             if args.time:
