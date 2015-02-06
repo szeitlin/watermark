@@ -34,7 +34,7 @@ For more examples can be found in this [IPython notebook](http://nbviewer.ipytho
 
 In order to intall `watermark`, execute the the following code snippet in an IPython shell or IPython notebook cell.
 
-	%install_ext https://raw.githubusercontent.com/rasbt/watermark/master/watermark.py
+	%install_ext https://raw.githubusercontent.com/szeitlin/watermark/master/watermark.py
 	
 For updates, simply execute the `%install_ext` again. Information about the current watermark version can be found in the help menu (via `%watermark?`).
 
